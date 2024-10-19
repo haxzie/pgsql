@@ -42,9 +42,9 @@ export default function SideNavBar() {
   return (
     <div className={styles.navbar}>
       <div className={styles.branding}>
-        <div className={styles.logo}>
-          <Logo size={18} />
-        </div>
+        <a href="https://sequel.sh?utm_campaign=pglite&utm_source=pgsql" className={styles.logo}>
+          <Logo size={20} />
+        </a>
       </div>
       <div className={styles.menu}>
         {menuItems.map((menu) => (
@@ -63,7 +63,7 @@ export default function SideNavBar() {
       <div className={styles.links}>
         <a
           className={styles.menuItem}
-          href="https://github.com/haxzie/pglite-playground" target="_blank">
+          href="https://github.com/sequelsh/pgsql" target="_blank">
             <GitHubIcon size={18} />
           </a>
       </div>
